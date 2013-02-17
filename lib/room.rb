@@ -1,7 +1,7 @@
 # Author :: Simon Symeonidis 
 # This class generates a specific chunk depending on 
 # provided data. 
-class World
+class Room
 
   # 2d width of map
   attr :width, 
