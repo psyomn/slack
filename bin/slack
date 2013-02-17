@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby 
 
-p "I must work in the future"
+require 'lib/organic.rb'
+
+org = Organic.new
+
+org.receive_damage(9001)
 
