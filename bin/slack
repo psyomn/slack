@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby 
 
-require 'lib/organic.rb'
+require 'organic.rb'
 
 org = Organic.new
 
-org.receive_damage(9001)
+p org
 
