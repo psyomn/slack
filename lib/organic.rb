@@ -8,7 +8,7 @@ class Organic
   attr :current_hitpoints, :max_hitpoints,
        :current_magic_power, :max_magic_power,
        :strength, :stamina, :agility, :defense,
-       :unused_skillpoints, :status
+       :unused_skillpoints, :status, :name
   
   # Initialize with default values
   def initialize
@@ -29,6 +29,7 @@ class Organic
 
   # TODO: this will be more sophisticated in the future
   def defend
+    @defense
   end
 
   def receive_damage(damage)
