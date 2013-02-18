@@ -8,7 +8,8 @@ class Room
   # 2d height of map
   :height,
   # data of map
-  :data
+  :data,
+  :monster_list
 
   def initialize(params)
   end 
