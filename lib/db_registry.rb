@@ -2,6 +2,7 @@ require 'sqlite3'
 require 'singleton'
 
 # Author :: Simon Symeonidis 
+# License :: GPL v3.0
 # The connector to the sqlite3 database we'll be using.
 class DbRegistry
 

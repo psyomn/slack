@@ -1,6 +1,7 @@
 require 'status.rb'
 
 # Author :: Simon Symeonidis  
+# License :: GPL v3.0
 # This describes organic things. So if need be, player and 
 # enemies can inherit from this. 
 class Organic

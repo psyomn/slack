@@ -1,0 +1,29 @@
+monsters badguy01 badguy02 badguy03
+keys     k1 k2 k3
+gate     goto:otherplace.txt 
+gate     goto:lockedplace.txt requires:k1
+npcs
+  Fred gives:k1 say:"Here you might need this key"
+  Barry gives:potion say:"I'm drunk hic! What's this? Here you can have it."
+
+ROOM
+###################################
+#      #                          G
+# O    #  D                       #
+#      #                          #
+#### ######################## #####
+#                                 #
+#                                 #
+#                                 #
+###########                       #
+#                                 #
+#  O      #                       #
+#         #                       #
+###########                    U  #
+#                                 #
+#                                 G
+###################################
++---------------------------------+
+|                                 |
+|                                 |
++---------------------------------+

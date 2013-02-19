@@ -1,4 +1,5 @@
 # Author :: Simon Symeonidis 
+# License :: GPL v3.0
 # This class generates a specific chunk depending on 
 # provided data. 
 class Room

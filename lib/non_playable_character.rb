@@ -1,10 +1,14 @@
 require 'organic.rb'
 
 # Author :: Simon Symeonidis 
+# License :: GPL v3.0
 # General class for npcs. Can be used for chests. Etc.
 class NonPlayableCharacter < Organic
 
   attr_accessor :message
+  # Triggers that fire events when different game states 
+  # are contained.
+  attr_accessor :triggers
   attr :hold
 
   def initialize

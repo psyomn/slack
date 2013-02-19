@@ -1,4 +1,5 @@
 # Author :: Simon Symeonidiss 
+# License :: GPL v3.0
 # This is a dice class that can be used to calculate random
 # numbers for peoples attacts, etc.
 class Die
