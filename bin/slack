@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby 
 
-require 'organic.rb'
+require 'slack/version.rb'
 
-org = Organic.new
+puts "O===Slack==|___________________________>"
+puts "Smith Tempered to Version #{Slack::VERSION}"
 
-p org
 
