@@ -4,13 +4,6 @@ require 'organic.rb'
 # License :: GPL v3.0
 # General class for npcs. Can be used for chests. Etc.
 class NonPlayableCharacter < Organic
-
-  attr_accessor :message
-  # Triggers that fire events when different game states 
-  # are contained.
-  attr_accessor :triggers
-  attr :hold
-
   def initialize
     @message = nil
     @hold = nil
@@ -25,4 +18,10 @@ class NonPlayableCharacter < Organic
   def give
     [@hold, "You got #{@hold}"]
   end
+
+  attr_accessor :message
+  # Triggers that fire events when different game states 
+  # are contained.
+  attr_accessor :triggers
+  attr :hold
 end

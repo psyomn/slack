@@ -5,6 +5,7 @@ require 'set'
 require 'inventory.rb'
 
 # Author :: Simon Symeonidis
+# License :: GPL v3.0
 # This stores the game data of the current _game instance_
 # States, and other information should be stored in here.
 class GameData

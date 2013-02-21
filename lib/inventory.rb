@@ -4,9 +4,9 @@ require 'item.rb'
 # License :: GPL v3.0
 # An entity can have one inventory. 
 class Inventory
-  attr :items
-
   def initialize
     @items = Array.new
   end
+
+  attr :items
 end

@@ -5,12 +5,7 @@ require 'status.rb'
 # This describes organic things. So if need be, player and 
 # enemies can inherit from this. 
 class Organic
-
-  attr :current_hitpoints, :max_hitpoints,
-       :current_magic_power, :max_magic_power,
-       :strength, :stamina, :agility, :defense,
-       :unused_skillpoints, :status, :name
-  
+ 
   # Initialize with default values
   def initialize
     @current_hitpoints   = @max_hitpoints   = 10
@@ -37,4 +32,8 @@ class Organic
     @current_hitpoints -= damage - self.defend
   end
 
+  attr :current_hitpoints, :max_hitpoints,
+       :current_magic_power, :max_magic_power,
+       :strength, :stamina, :agility, :defense,
+       :unused_skillpoints, :status, :name
 end 

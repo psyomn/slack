@@ -4,8 +4,6 @@
 # numbers for peoples attacts, etc.
 class Die
 
-  attr :sides
-
   # Initialize with dice num sides. Default 6.
   def initialize(params=6)
     @sides = params
@@ -15,5 +13,7 @@ class Die
   def roll
     rand(@sides) + 1
   end 
+
+  attr :sides
 
 end 
