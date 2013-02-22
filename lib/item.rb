@@ -6,6 +6,11 @@
 # This can also include other items such as key items.
 class Item
   def initialize
+    @id = nil
+    @name = "item name"
+    @description = "add your description here" 
+    @effect_type = "damage"
+    @effect_strength = 0
   end 
 
   def use
